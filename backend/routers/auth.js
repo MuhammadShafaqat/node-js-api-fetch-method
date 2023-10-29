@@ -12,7 +12,7 @@ const router = express.Router();
 router.post('/signIn', async (req, res)=>{
     // const user = req.body;
     try {
-      const user = await UserModel.findOne({email: req.body.email});
+      const user = await UserModel.findOne({username: req.body.username});
       if (!user) {
         return res.status(401).json({success: false, message: 'Authentication failed' });
       }
