@@ -32,7 +32,7 @@ formData.addEventListener('submit', async (event) => {
       // Handle successful response data (if needed)
       console.log(data);
       // Redirect to the login page
-      window.location.href = '/frontend/home.html'; // Replace with your login page URL
+      window.location.href = '/frontend/table.html'; // Replace with your login page URL
     })
     .catch(err => {
       console.error(err);

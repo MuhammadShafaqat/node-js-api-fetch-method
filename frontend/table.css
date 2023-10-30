@@ -1,0 +1,136 @@
+
+body{
+	font-size: 12px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+.background{
+	background-color: silver;
+}
+.background1{
+	background-color: Lavender;
+}
+/*  */
+/* Remove the border */
+.custom-date-input {
+	border: none;
+	outline: none; 
+	font-weight: bold;/* Remove the focus outline (optional) */
+	/* Additional styling to match your design */
+	/* For example, set background-color, padding, font-size, etc. */
+  }
+  
+  /* Remove the calendar icon */
+  .custom-date-input::-webkit-calendar-picker-indicator {
+	display: none;
+  }
+  
+  /* Remove the arrow button on Firefox */
+  .custom-date-input::-webkit-inner-spin-button {
+	display: none;
+  }
+  
+  /* Remove the arrow button on IE/Edge */
+  .custom-date-input::-ms-clear {
+	display: none;
+  }
+  
+
+/* header 1 */
+
+/* Define column widths */
+
+/* colgroup.col-span-1 {
+	width: 10%;
+}
+colgroup.col-span-7-5 {
+	width: 49.5%;
+}
+colgroup {
+	width: 6.5%;
+}
+colgroup.col-span-11-15 {
+	width: 45%;
+}
+colgroup.col-span-1-5, colgroup.col-span-7-5, colgroup.col-span-1 {
+	border: none; 
+} */
+/* end  */
+/* header 1 */
+
+/* Define column widths */
+
+
+/* end  */
+.col-span-11{
+width: 10%;
+}
+.col-span-12{
+	width: 49.5%;
+}
+.col-span-13{
+	width: 6.5%;
+}
+.col-span-14{
+	width: 13%;
+}
+.col-span-15{
+	width: 6.5%;
+}
+.col-span-16{
+	width: 13%;
+}
+
+/* .feature-container  */
+.feature-container{
+	margin-top: 3rem;
+	width: 100%;
+}
+table, th, td {
+	border:1px solid black;
+	border-collapse: collapse;
+  }
+  th{
+	font-weight: bold;
+  }
+  th,td{
+	padding-top: .4rem;
+	padding-bottom: .4rem;
+	text-align: center;
+	width: 5.5rem;
+  }
+  .feature-container tr:nth-child(n+3) td{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+  }
+  .footer-container{
+	padding-top: 1rem;
+  }
+
+  input[type="button"] {
+    width: 100%;
+    height: auto;
+	font-size: 12px;
+	font-weight: bold;
+	padding: auto;
+	border: none;
+	cursor: pointer;
+	background-color: aqua;
+  }
+  input[type="text"] {
+    width: 80%;
+    /* min-height: 120%; */
+	height: 20%;
+	font-size: 12px;
+	font-weight: bold;
+	padding: auto;
+	border: none;
+	cursor: pointer;
+	background-color: aqua;
+  }
+  input:focus {
+	outline: none;
+  }
+  .position{
+	text-align: left;
+  }
